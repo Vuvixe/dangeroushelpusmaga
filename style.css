@@ -1,0 +1,50 @@
+.screen {
+  background-color: #fbfcff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.screen .div {
+  background-color: #fbfcff;
+  width: 393px;
+  height: 1907px;
+  position: relative;
+}
+
+.screen .gosus {
+  position: absolute;
+  width: 392px;
+  height: 67px;
+  top: 27px;
+  left: 0;
+  object-fit: cover;
+}
+
+.screen .img {
+  position: absolute;
+  width: 392px;
+  height: 427px;
+  top: 94px;
+  left: 0;
+  object-fit: cover;
+}
+
+.screen .gosus-2 {
+  position: absolute;
+  width: 393px;
+  height: 683px;
+  top: 543px;
+  left: 0;
+  object-fit: cover;
+}
+
+.screen .gosus-3 {
+  position: absolute;
+  width: 392px;
+  height: 681px;
+  top: 1226px;
+  left: 1px;
+  object-fit: cover;
+}

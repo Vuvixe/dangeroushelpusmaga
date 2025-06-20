@@ -1,50 +1,19 @@
 <!DOCTYPE html>
-<html lang="ru">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Мой простой сайт</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: #121212;
-      color: #eee;
-      text-align: center;
-      padding: 2rem;
-    }
-    h1 {
-      color: #00ffcc;
-    }
-    button {
-      background: #00ffcc;
-      border: none;
-      padding: 1rem 2rem;
-      font-size: 1.2rem;
-      cursor: pointer;
-      border-radius: 5px;
-      margin-top: 2rem;
-      transition: background 0.3s;
-    }
-    button:hover {
-      background: #00cc99;
-    }
-    #message {
-      margin-top: 1.5rem;
-      font-size: 1.1rem;
-      color: #ffa500;
-    }
-  </style>
-</head>
-<body>
-  <h1>Привет! Это простой сайт</h1>
-  <p>Нажми кнопку ниже, чтобы увидеть сообщение.</p>
-  <button onclick="showMessage()">Нажми меня</button>
-  <div id="message"></div>
-
-  <script>
-    function showMessage() {
-      document.getElementById('message').textContent = 'Спасибо за нажатие! 🎉';
-    }
-  </script>
-</body>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="screen">
+      <div class="div">
+        <img class="gosus" src="img/gosus.png" />
+        <img class="img" src="img/gosus-2.png" />
+        <img class="gosus-2" src="img/gosus-3.png" />
+        <img class="gosus-3" src="img/gosus-4.png" />
+      </div>
+    </div>
+  </body>
 </html>
