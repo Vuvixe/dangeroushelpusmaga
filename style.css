@@ -9,7 +9,7 @@
 .screen .div {
   background-color: #fbfcff;
   width: 393px;
-  height: 1907px;
+  height: 1858px;
   position: relative;
 }
 
@@ -17,16 +17,16 @@
   position: absolute;
   width: 392px;
   height: 67px;
-  top: 27px;
-  left: 0;
+  top: 0;
+  left: 1px;
   object-fit: cover;
 }
 
 .screen .img {
   position: absolute;
-  width: 392px;
+  width: 393px;
   height: 427px;
-  top: 94px;
+  top: 67px;
   left: 0;
   object-fit: cover;
 }
@@ -35,7 +35,7 @@
   position: absolute;
   width: 393px;
   height: 683px;
-  top: 543px;
+  top: 494px;
   left: 0;
   object-fit: cover;
 }
@@ -44,7 +44,7 @@
   position: absolute;
   width: 392px;
   height: 681px;
-  top: 1226px;
+  top: 1177px;
   left: 1px;
   object-fit: cover;
 }
